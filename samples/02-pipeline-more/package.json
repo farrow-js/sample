@@ -1,0 +1,12 @@
+{
+  "name": "02-pipeline-more",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "farrow-pipeline": "^1.10.7"
+  }
+}

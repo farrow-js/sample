@@ -1,0 +1,18 @@
+{
+  "name": "farrow-sample",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "samples/*",
+      "samples/**/*"
+    ]
+  },
+  "repository": "https://github.com/tqma113/farrow-sample.git",
+  "author": "Ma Tianqi mtq1997@126.com",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.3.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.2"
+  }
+}
