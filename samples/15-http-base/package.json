@@ -1,0 +1,21 @@
+{
+  "name": "http-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "farrow": "^1.10.7",
+    "farrow-api": "^1.10.7",
+    "farrow-api-client": "^1.10.7",
+    "farrow-api-server": "^1.10.7",
+    "farrow-http": "^1.10.7",
+    "farrow-pipeline": "^1.10.6",
+    "farrow-schema": "^1.10.7"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}

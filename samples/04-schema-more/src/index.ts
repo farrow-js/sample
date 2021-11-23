@@ -38,6 +38,7 @@ let validateReg1 = createSchemaValidator(Reg1)
 
 const assertOk = <T>(result: ValidationResult<T>): T => {
   if (result.isOk) return result.value
+  // @ts-ignore
   throw new Error(result.value.message)
 }
 
