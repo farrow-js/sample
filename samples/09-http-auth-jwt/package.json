@@ -1,5 +1,5 @@
 {
-  "name": "21-api-mock",
+  "name": "09-http-auth-jwt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

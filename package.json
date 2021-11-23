@@ -11,8 +11,6 @@
   "author": "Ma Tianqi mtq1997@126.com",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.3.1",
-    "tslib": "^2.3.0",
-    "typescript": "^4.3.2"
+    "prettier": "^2.3.1"
   }
 }
