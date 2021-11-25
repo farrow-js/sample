@@ -1,4 +1,9 @@
-import { ValidatorType, RegExp, createSchemaValidator, ValidationResult } from 'farrow-schema/validator'
+import {
+  ValidatorType,
+  RegExp,
+  createSchemaValidator,
+  ValidationResult,
+} from 'farrow-schema/validator'
 
 // validator
 class DateType extends ValidatorType<Date> {

@@ -10,6 +10,9 @@
   "repository": "https://github.com/tqma113/farrow-sample.git",
   "author": "Ma Tianqi mtq1997@126.com",
   "license": "MIT",
+  "scripts": {
+    "format": "prettier ./**/*.{ts,tsx,js} --write"
+  },
   "devDependencies": {
     "prettier": "^2.3.1"
   }

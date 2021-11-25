@@ -70,7 +70,7 @@ export const addTodo = Api(
     return {
       todos: state.todos,
     }
-  },
+  }
 )
 
 export class RemoveTodoInput extends ObjectType {
@@ -98,7 +98,7 @@ export const removeTodo = Api(
     return {
       todos: state.todos,
     }
-  },
+  }
 )
 
 export const entries = {

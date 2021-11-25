@@ -1,7 +1,20 @@
 import * as Schema from 'farrow-schema'
 import { Validator } from 'farrow-schema/validator'
 
-const { ObjectType, List, ID, Float, Nullable, Struct, Union, Intersect, Literal, Json, Any, Record } = Schema
+const {
+  ObjectType,
+  List,
+  ID,
+  Float,
+  Nullable,
+  Struct,
+  Union,
+  Intersect,
+  Literal,
+  Json,
+  Any,
+  Record,
+} = Schema
 
 // define User Object, it supports recursive definition
 class User extends ObjectType {
@@ -77,10 +90,10 @@ type T1 = Schema.TypeOf<User>
 type T2 = Schema.TypeOf<Product>
 
 const result0 = Validator.validate(Product, {
-  id : 'product id',
-  title : 'product title',
-  description : 'product description',
-  price : 1000.1
+  id: 'product id',
+  title: 'product title',
+  description: 'product description',
+  price: 1000.1,
 })
 
 if (result0.isOk) {

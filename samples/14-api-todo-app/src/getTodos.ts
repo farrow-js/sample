@@ -2,29 +2,26 @@ import { Api } from 'farrow-api'
 import { Struct, Type, Literal, Union, List, TypeOf } from 'farrow-schema'
 import { LimitContext } from './limit'
 
-export const GetTodosInput  = Struct({
-  id: String
+export const GetTodosInput = Struct({
+  id: String,
 })
 
 export const Todo = Struct({
   content: String,
-  createTime: Number
+  createTime: Number,
 })
 
 export const GetTodosSuccess = Struct({
   type: Literal('GetTodosSuccess'),
-  todos: List(Todo)
+  todos: List(Todo),
 })
 
 export const UnknownID = Struct({
   type: Literal('UnknownID'),
-  message: String
+  message: String,
 })
 
-export const GetTodosOutput = Union(
-  GetTodosSuccess,
-  UnknownID,
-)
+export const GetTodosOutput = Union(GetTodosSuccess, UnknownID)
 
 export const getTodos = Api({
   input: GetTodosInput,

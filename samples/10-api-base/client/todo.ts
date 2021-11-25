@@ -69,10 +69,17 @@ export const api = {
   /**
    * @remarks add todo
    */
-  addTodo: (input: AddTodoInput) => apiPipeline.invoke(url, { path: ['addTodo'], input }) as Promise<AddTodoOutput>,
+  addTodo: (input: AddTodoInput) =>
+    apiPipeline.invoke(url, {
+      path: ['addTodo'],
+      input,
+    }) as Promise<AddTodoOutput>,
   /**
    * @remarks remove todo
    */
   removeTodo: (input: RemoveTodoInput) =>
-    apiPipeline.invoke(url, { path: ['removeTodo'], input }) as Promise<RemoveTodoOutput>,
+    apiPipeline.invoke(url, {
+      path: ['removeTodo'],
+      input,
+    }) as Promise<RemoveTodoOutput>,
 }

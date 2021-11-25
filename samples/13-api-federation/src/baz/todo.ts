@@ -49,7 +49,7 @@ export const getTodos = Api(
     return {
       todos,
     }
-  },
+  }
 )
 
 export class AddTodoInput extends ObjectType {
@@ -102,7 +102,7 @@ export const addTodo = Api(
       type: 'AddTodoSuccess',
       todo,
     })
-  },
+  }
 )
 
 export class RemoveTodoInput extends ObjectType {
@@ -158,7 +158,7 @@ export const removeTodo = Api(
       todoId: input.todoId,
       todos,
     })
-  },
+  }
 )
 
 export class UpdateTodoInput extends ObjectType {
@@ -221,7 +221,7 @@ export const updateTodo = Api(
       todoId: input.todoId,
       todos,
     })
-  },
+  }
 )
 
 export const clearCompleted = Api(
@@ -241,7 +241,7 @@ export const clearCompleted = Api(
     return {
       todos,
     }
-  },
+  }
 )
 
 export const service = ApiService({

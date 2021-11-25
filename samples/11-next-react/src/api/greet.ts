@@ -34,5 +34,8 @@ export const api = {
    * @remarks Greeting
    */
   greet: (input: GreetInput, options?: ApiInvokeOptions) =>
-    apiPipeline.invoke({ type: 'Single', path: ['greet'], input }, options) as Promise<GreetOutput>,
+    apiPipeline.invoke(
+      { type: 'Single', path: ['greet'], input },
+      options
+    ) as Promise<GreetOutput>,
 }

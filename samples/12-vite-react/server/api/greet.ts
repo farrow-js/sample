@@ -25,7 +25,7 @@ export const greet = Api(
   (input) => {
     const greet = `Hello ${input.name}!`
     return { greet }
-  },
+  }
 )
 
 export const service = ApiService({

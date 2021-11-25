@@ -31,5 +31,6 @@ export const api = {
   /**
    * @remarks Greeting
    */
-  greet: (input: GreetInput) => apiPipeline.invoke(url, { path: ['greet'], input }) as Promise<GreetOutput>,
+  greet: (input: GreetInput) =>
+    apiPipeline.invoke(url, { path: ['greet'], input }) as Promise<GreetOutput>,
 }

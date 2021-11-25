@@ -30,7 +30,12 @@ export const View = () => {
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
         <p>
-          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Learn React
           </a>
           {' | '}
@@ -43,7 +48,12 @@ export const View = () => {
             Learn Farrow
           </a>
           {' | '}
-          <a className="App-link" href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            className="App-link"
+            href="https://nextjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Learn Next.js
           </a>
         </p>
