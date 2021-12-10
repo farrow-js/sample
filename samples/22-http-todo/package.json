@@ -1,0 +1,21 @@
+{
+  "name": "farrow-http-todo-sample",
+  "version": "1.11.0",
+  "private": true,
+  "repository": "git@github.com:tqma113/farrow-http-template.git",
+  "author": "Ma Tianqi <mtq1997@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "farrow dev",
+    "build": "farrow build",
+    "start": "farrow start"
+  },
+  "dependencies": {
+    "farrow-http": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "farrow": "^1.11.1",
+    "typescript": "^4.5.3"
+  }
+}
