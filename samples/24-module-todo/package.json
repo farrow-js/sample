@@ -1,8 +1,8 @@
 {
-  "name": "farrow-api-todo-sample",
+  "name": "farrow-module-todo-sample",
   "version": "1.11.0",
   "private": true,
-  "repository": "git@github.com:tqma113/farrow-api-template.git",
+  "repository": "git@github.com:tqma113/farrow-sample.git",
   "author": "Ma Tianqi <mtq1997@126.com>",
   "license": "MIT",
   "dependencies": {

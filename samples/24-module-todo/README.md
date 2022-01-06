@@ -1,3 +1,3 @@
-# farrow-api-template
+# farrow-module-template
 
-A template for farrow with rpc api.
+A template for farrow-module at effect management.
