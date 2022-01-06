@@ -44,19 +44,21 @@ todo.get('/getTodos').use(() => {
   })
 })
 
-todo.post('/addTodo', { body: { content: String } }).use(({ body: { content } }) => {
-  state.todos.push({
-    id: state.uid++,
-    content,
-    completed: false,
-    deleted: false,
+todo
+  .post('/addTodo', { body: { content: String } })
+  .use(({ body: { content } }) => {
+    state.todos.push({
+      id: state.uid++,
+      content,
+      completed: false,
+      deleted: false,
+    })
+    return Response.json({
+      code: 0,
+      message: 'Create successfully',
+      todos: clearTodos(state.todos),
+    })
   })
-  return Response.json({
-    code: 0,
-    message: 'Create successfully',
-    todos: clearTodos(state.todos),
-  })
-})
 
 todo.put('/removeTodo', { body: { id: Number } }).use(({ body: { id } }) => {
   state.todos.forEach((todo) => {

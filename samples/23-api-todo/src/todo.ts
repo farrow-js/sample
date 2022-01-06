@@ -1,4 +1,12 @@
-import { Int, List, ObjectType, Type, TypeOf, pickObject, Unknown } from 'farrow-schema'
+import {
+  Int,
+  List,
+  ObjectType,
+  Type,
+  TypeOf,
+  pickObject,
+  Unknown,
+} from 'farrow-schema'
 import { Api } from 'farrow-api'
 import { ApiService } from 'farrow-api-server'
 
@@ -69,7 +77,7 @@ export const getTodos = Api(
     return {
       todos: clearTodos(state.todos),
     }
-  },
+  }
 )
 
 export const AddTodoInput = pickObject(Todo, ['content'])
@@ -92,7 +100,7 @@ export const addTodo = Api(
     return {
       todos: state.todos,
     }
-  },
+  }
 )
 
 export const RemoveTodoInput = pickObject(Todo, ['id'])
@@ -114,7 +122,7 @@ export const removeTodo = Api(
     return {
       todos: clearTodos(state.todos),
     }
-  },
+  }
 )
 
 export const CompleteTodoInput = pickObject(Todo, ['id'])
@@ -136,7 +144,7 @@ export const completeTodo = Api(
     return {
       todos: clearTodos(state.todos),
     }
-  },
+  }
 )
 
 export const entries = {
