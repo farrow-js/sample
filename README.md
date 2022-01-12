@@ -1,2 +1,3 @@
 # farrow-sample
-Sample for farrow.
+
+Samples for [farrow](https://github.com/farrow-js/farrow).
