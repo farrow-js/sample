@@ -1,7 +1,11 @@
 import { Container } from 'farrow-module'
 
 import { RestfulClient, fetchProvider } from './restful'
-import { TodoClient, todoApiBasenameProvider, todoRouteNamesProvider } from './todo'
+import {
+  TodoClient,
+  todoApiBasenameProvider,
+  todoRouteNamesProvider,
+} from './todo'
 
 class Effect extends Container {
   // inject the fetch client
@@ -11,16 +15,18 @@ class Effect extends Container {
   todoBasename = this.inject(todoApiBasenameProvider.provide('/api'))
 
   // inject the todo api paths
-  todoRoutenames = this.inject(todoRouteNamesProvider.provide({
-    getTodos: '/getTodos',
-    addTodo: '/addTodo',
-    removeTodo: '/removeTodo',
-    removeCompletedTodos: '/removeCompletedTodos',
-    toggleAll: '/toggleAll',
-    toggleOne: '/toggleOne',
-    updateTitle: '/updateTitle',
-    getLimit: '/getLimit',
-  }))
+  todoRoutenames = this.inject(
+    todoRouteNamesProvider.provide({
+      getTodos: '/getTodos',
+      addTodo: '/addTodo',
+      removeTodo: '/removeTodo',
+      removeCompletedTodos: '/removeCompletedTodos',
+      toggleAll: '/toggleAll',
+      toggleOne: '/toggleOne',
+      updateTitle: '/updateTitle',
+      getLimit: '/getLimit',
+    })
+  )
 
   restful = this.new(RestfulClient)
 
