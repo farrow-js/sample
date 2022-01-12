@@ -44,6 +44,14 @@ todo.get('/getTodos').use(() => {
   })
 })
 
+// apis
+todo.get('/getLimit').use(() => {
+  return Response.json({
+    code: 0,
+    todos: clearTodos(state.todos),
+  })
+})
+
 todo
   .post('/addTodo', { body: { content: String } })
   .use(({ body: { content } }) => {

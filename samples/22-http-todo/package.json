@@ -11,6 +11,7 @@
     "start": "farrow start"
   },
   "dependencies": {
+    "farrow-cors": "^1.11.0",
     "farrow-http": "^1.11.0"
   },
   "devDependencies": {
