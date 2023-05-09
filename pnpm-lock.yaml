@@ -219,6 +219,7 @@ importers:
       farrow-http: ^2.1.1
       farrow-schema: ^2.1.1
       ts-node: ^10.9.1
+      tslib: ^2.5.0
       typescript: ^5.0.4
     dependencies:
       farrow-api: 2.1.1
@@ -227,6 +228,7 @@ importers:
       farrow-http: 2.1.1
       farrow-schema: 2.1.1
       ts-node: 10.9.1_typescript@5.0.4
+      tslib: 2.5.0
     devDependencies:
       typescript: 5.0.4
 

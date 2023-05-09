@@ -15,7 +15,8 @@
     "farrow-federation": "^2.1.1",
     "farrow-http": "^2.1.1",
     "farrow-schema": "^2.1.1",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0"
   },
   "devDependencies": {
     "typescript": "^5.0.4"
