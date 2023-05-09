@@ -10,12 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "farrow-cors": "^1.10.9",
-    "farrow-federation": "^1.10.9",
-    "farrow-http": "^1.10.10",
-    "ts-node": "^10.4.0"
+    "farrow-api": "^2.1.1",
+    "farrow-cors": "^2.1.1",
+    "farrow-federation": "^2.1.1",
+    "farrow-http": "^2.1.1",
+    "farrow-schema": "^2.1.1",
+    "ts-node": "^10.9.1"
   },
   "devDependencies": {
-    "typescript": "^4.5.2"
+    "typescript": "^5.0.4"
   }
 }

@@ -11,7 +11,7 @@
   "author": "Ma Tianqi mtq1997@126.com",
   "license": "MIT",
   "scripts": {
-    "format": "prettier ./**/*.{ts,tsx,js} --write"
+    "format": "prettier ./**/*.{ts,tsx,js,json} --write"
   },
   "devDependencies": {
     "prettier": "^2.3.1"
