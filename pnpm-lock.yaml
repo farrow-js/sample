@@ -214,6 +214,7 @@ importers:
   samples/13-api-federation:
     specifiers:
       farrow-api: ^2.1.1
+      farrow-api-server: ^2.1.1
       farrow-cors: ^2.1.1
       farrow-federation: ^2.1.1
       farrow-http: ^2.1.1
@@ -223,6 +224,7 @@ importers:
       typescript: ^5.0.4
     dependencies:
       farrow-api: 2.1.1
+      farrow-api-server: 2.1.1
       farrow-cors: 2.1.1_farrow-http@2.1.1
       farrow-federation: 2.1.1_farrow-http@2.1.1
       farrow-http: 2.1.1

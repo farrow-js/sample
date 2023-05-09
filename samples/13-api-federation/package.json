@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "farrow-api": "^2.1.1",
+    "farrow-api-server": "^2.1.1",
     "farrow-cors": "^2.1.1",
     "farrow-federation": "^2.1.1",
     "farrow-http": "^2.1.1",
