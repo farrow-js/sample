@@ -10,7 +10,8 @@
     "farrow-api-server": "^2.1.1",
     "farrow-http": "^2.1.1",
     "farrow-pipeline": "^2.1.1",
-    "farrow-schema": "^2.1.1"
+    "farrow-schema": "^2.1.1",
+    "tslib": "^2.5.0"
   },
   "scripts": {
     "start": "ts-node src/index.ts"
